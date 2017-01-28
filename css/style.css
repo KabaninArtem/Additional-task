@@ -1,0 +1,58 @@
+body {
+	background-size: cover;
+	color: #e6e6e6;
+	font-family: 'Open Sans', sans-serif;
+	background-color: black;
+}
+.header p {
+	margin-top: -35px;
+	text-align: center;
+}
+.wrapper {
+	padding-top: 50px;
+	margin: auto;
+	width: 954px;
+	color: #9c9c9c;
+	background-image: url(../img/background.jpg);
+}
+.header {
+	height: 148px;
+	width: 820px;
+	margin: auto;
+}
+.logo {
+	height:148px;
+	width: 270px;
+	float:left;
+}
+.contact-block {
+	margin-right:30px;
+	margin-top: 90px;
+	float:right;
+}
+.main {
+	width: 820px;
+	margin:auto;
+}
+.main figure {
+	display: inline-block;
+	margin-right:9px;
+}
+.main figure:nth-child(3) {
+	margin-right: 0;
+}
+.main figcaption {
+	text-align: center;
+}
+.main img {
+	border: 2px solid #c2c2c2;
+	border-radius: 1px;
+}
+.main > div:last-child {
+	margin-top: 50px;
+}
+.footer {
+	margin-bottom: 25px;
+	margin-top: 220px;
+	text-align: center;
+}
